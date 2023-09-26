@@ -80,7 +80,8 @@ public class ArrayListTest {
 		System.out.println("==========================================");
 		System.out.printf("strArray %s \n", (isEmpty == true) ? "배열이 비어있어요" : "배열에 값이 있어요");
 		System.out.printf("strList %s \n", (strList.isEmpty() == true) ? "List가 비어있어요" : "List에 값이 있어요");
-
+		System.out.println("==========================================");
+		
 		System.out.println("\nThe end");
 	}
 
