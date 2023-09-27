@@ -37,8 +37,7 @@ public class StudentMain {
 			Student findStu = new Student(name, id); 
 			boolean isFind = al.contains(findStu);
 			if(isFind) {
-				int index = al.indexOf(findStu);
-				System.out.printf("%s \n",al.get(index));
+				System.out.printf("%s \n",al.get(al.indexOf(findStu)));
 			}else {
 				System.out.printf("찾는 학생이 없습니다.\n");
 			}
